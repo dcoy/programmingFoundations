@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>Grades</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="grade-box">
+      <div>
+        <p class="animated-left">Please enter your grade below, separated by commas:</p>
+        <input type="text" id="grade">
+        <input type="button" value="Submit Grades" class="btn btn-white" onclick="submit();" />
+      </div>
+      <div id="main-grade-box">
+        <p>Your grades are:
+          <span id="all-grades"></span>
+        </p>
+        <p>Your average grade is:
+          <span id="average-grade"></span>
+        </p>
+        <p>Your final letter grade is:</p>
+      </div>
+      <div>
+        <h2 id="letter-grade"></h2>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <script src="script.js"></script>
+  </footer>
+</body>
+
+</html>
